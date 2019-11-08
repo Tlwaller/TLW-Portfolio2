@@ -6,16 +6,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
     <nav id="nav">
       <ul>
         <li className="special">
-          <a
-            href="#menu"
-            onClick={e => {
-              e.preventDefault();
-              onMenuToggle();
-            }}
-            className="menuToggle"
-          >
-            <span>Menu</span>
-          </a>
+          
           <div id="menu">
             <ul>
               <li>
